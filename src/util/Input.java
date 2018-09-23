@@ -70,5 +70,14 @@ public class Input {
         return getDouble(min , max);
      }
 
+//     public int getInt{
+//        return scanner.nextInt();
+//    }
+//
+//    public int getInt (int min, int max) {
+//        System.out.println("Please enter a number between " + min + " and "+ max);
+//        return getInt();
+//    }
+
 
 }
