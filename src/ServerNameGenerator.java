@@ -27,6 +27,7 @@ public class ServerNameGenerator {
             "silly",
             "stinky",
             "tall",
+            "big"
 
 
 
@@ -58,15 +59,20 @@ public class ServerNameGenerator {
             "hands",
             "hat",
             "nose",
-            "face"
+            "face",
+            "daddy",
+            "villager",
+            "squidword",
+            "gorilla"
 
     };
 
     public static void main(String[] args) {
         String adj = randomWord(adjectives);
         String noun = randomWord(nouns);
+        String noun2 = randomWord(nouns);
         System.out.println("Here is your server name:");
-        System.out.println(adj + "-" + noun);
+        System.out.println(adj + "-" + noun + "-" + noun2);
     }
 
     public static String randomWord(String[] words) {
