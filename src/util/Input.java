@@ -66,9 +66,9 @@ public class Input {
         System.out.print(prompt);
         return getDouble();
     }
-     public double getDouble(double min, double max){
-        return getDouble(min , max);
-     }
+//     public double getDouble(double min, double max){
+//        return getDouble(min , max);
+//     }
 
 //     public int getInt{
 //        return scanner.nextInt();
