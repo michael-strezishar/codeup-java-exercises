@@ -26,7 +26,7 @@ public class ContactsApplication {
 //        int action = 0;
 //        ArrayList<Contacts>contacts = new ArrayList<Contacts>();
 //        while (action != 6) {
-        do {
+        while (true) {
 
             System.out.println("\nWelcome to the contact list" +
                     " what would you like to do? \n");
@@ -39,7 +39,7 @@ public class ContactsApplication {
                     "Enter an option (1, 2, 3, 4 or 5):");
             int response = check.scan.nextInt();
             System.out.println(response);
-            switch (response){
+            switch (response) {
                 case (1):
                     checker.getContacts();
                     break;
@@ -54,8 +54,8 @@ public class ContactsApplication {
                 case (5):
                     checker.writeFile();
                     return;
-                 default:
-                     System.out.println("Invalid entry! Try again");
+                default:
+                    System.out.println("Invalid entry! Try again");
             }
 //            Scanner scan = new Scanner(System.in);
 //            scan.useDelimiter("\n");
@@ -76,9 +76,9 @@ public class ContactsApplication {
 //                    }
 //                }
 //            }
-        } while (confirm.yesNo());
+//        } while (confirm.yesNo());
 
+        }
     }
+
 }
-
-
